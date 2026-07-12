@@ -7,3 +7,5 @@ if a==b:
     print(-1)
 else:
     print(li[-2])
+
+
