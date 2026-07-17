@@ -1,10 +1,6 @@
 arr=[1,2,3,4,5]
-left=0
 right=len(arr)-1
-while left<right:
-    temp=arr[left]
-    arr[left]=arr[right]
-    arr[right]=temp
-    left=left+1
-    right=right-1
-print(arr)
+arr1=[]
+for i in range(right,0-1,-1):
+    arr1.append(arr[i])
+print(arr1)
