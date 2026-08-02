@@ -1,3 +1,4 @@
+# inserting a char at any index
 str="hell,world"
 ch="o"
 str=str[:4]+ch+str[4:]
