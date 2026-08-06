@@ -12,4 +12,4 @@ while left<right:
         left=left+1
 
 """time complexity is :O(n)
-space complexity is :O(1) but actually the space complexity is 0(3) but "big O" is ignores O(1,2,3,100)=O(1)"""
+space complexity is :O(1) but actually the space complexity is 0(3) but "big O" is ignores 'O(1,2,3,100)=O(1)'."""
