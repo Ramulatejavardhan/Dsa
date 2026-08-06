@@ -1,3 +1,4 @@
+# it finds the sum of 2 numbers that equal to target
 class Solution(object):
     def twoSum(self, numbers, target):
         left=0
