@@ -10,3 +10,5 @@ while left<right:
         right=right-1
     else:
         left=left+1
+time complexity is :O(n)
+space complexity is :O(1) but actually the sp
