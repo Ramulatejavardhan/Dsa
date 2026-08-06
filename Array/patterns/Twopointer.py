@@ -9,4 +9,4 @@ while left<right:
     elif n[left]+n[right]>target:
         right=right-1
     else:
-        left=left-1
+        left=left+1
