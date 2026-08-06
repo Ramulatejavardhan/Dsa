@@ -6,11 +6,9 @@ class Solution(object):
         while left<right:
             sum=numbers[left]+numbers[right]
             if sum==target:
-                ind1=numbers.index(numbers[left])+1
-                ind2=numbers.index(numbers[right])+1
-                return ind1,ind2
+                return [left+1,right+1]
             elif sum>target:
                 right=right-1
             else:
-                left=left-1
+                left=left+1
 obj=Solution()
