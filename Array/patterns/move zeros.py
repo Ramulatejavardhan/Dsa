@@ -7,5 +7,5 @@ for right in range(0,len(nums)):
         nums[left]=temp
         left=left+1
 print(nums)
-# Time Complexity → O(n)
+# Time Complexity → O(N)
 # Space Complexity → O(1)
